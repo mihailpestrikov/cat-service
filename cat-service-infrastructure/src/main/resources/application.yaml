@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.88.200:5432/is-tech-pestr
+    username: pestr
+    password: changeme
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    locations: classpath:migration

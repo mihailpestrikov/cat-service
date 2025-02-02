@@ -1,0 +1,5 @@
+rootProject.name = 'cat-service'
+include 'cat-service-application'
+include 'cat-service-domain'
+include 'cat-service-infrastructure'
+
